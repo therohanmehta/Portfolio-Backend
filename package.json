@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "jest",
-    "deploy": "npm install && npm run migrate && npm run build"
+    "deploy": "npm install  && npm run build"
   },
   "keywords": [],
   "author": "",
