@@ -5,9 +5,9 @@
   "main": "index.js",
  
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon ./index.js",
     "test": "jest",
-    "deploy": "npm install  && npm run build"
+    "deploy": "npm install"
   },
   "keywords": [],
   "author": "",
