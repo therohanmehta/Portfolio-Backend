@@ -34,6 +34,12 @@ server.use(cors());
 
 server.get("/data", async (req, res) => {});
 
+server.get("/jsondata", (req, res) => {
+  res.json({
+    name: "rohan",
+  });
+});
+
 server.post("/data", async (req, res) => {
   const feedbackData = new FeedbackData();
   feedbackData.name = req.body.name;
